@@ -15,6 +15,8 @@ class Square:
         """
         try:
             self.__size = size
+            if not isinstance(size, int):
+                raise TypeError
             if size < 0:
                 raise ValueError
         except TypeError:
