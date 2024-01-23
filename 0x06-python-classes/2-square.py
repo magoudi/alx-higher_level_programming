@@ -14,11 +14,11 @@ class Square:
             size(int):asdfasdfsdsd
         """
         try:
-            self.__size = size
             if not isinstance(size, int):
                 raise TypeError
             if size < 0:
                 raise ValueError
+            self.__size = size
         except TypeError:
             print("size must be an integer")
         except ValueError:
