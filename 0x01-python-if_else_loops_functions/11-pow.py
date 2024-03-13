@@ -3,12 +3,12 @@ def pow(a, b):
     if b == 0:
         return 1
     elif b < 0:
-        a = 1 / float(a)
-        print(a)
+        a = 1 / a
         b = abs(b)
     x = a
-    print(x)
     for i in range(b - 1):
-        x = x * a
-        print(x)
+        if a >= 1:
+            a = a * x
+        else:
+            a = float(a * x)
     return x
