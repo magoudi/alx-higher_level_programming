@@ -4,10 +4,9 @@ def pow(a, b):
         return 1
     elif b < 0:
         a = 1 / float(a)
+        print(a)
         b = abs(b)
     x = a
     for i in range(b - 1):
         x = x * a
-    if x < 1:
-        x = x - 0.000000000000000002
     return x
