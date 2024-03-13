@@ -11,4 +11,4 @@ def pow(a, b):
             a = a * x
         else:
             a = float(a * x)
-    return x
+    return a
