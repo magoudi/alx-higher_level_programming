@@ -7,6 +7,8 @@ def pow(a, b):
         print(a)
         b = abs(b)
     x = a
+    print(x)
     for i in range(b - 1):
         x = x * a
+        print(x)
     return x
