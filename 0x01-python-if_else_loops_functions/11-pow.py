@@ -7,5 +7,5 @@ def pow(a, b):
         b = abs(b)
     x = a
     for i in range(b - 1):
-        a = a * x
-    return a
+        x = x * a
+    return x
