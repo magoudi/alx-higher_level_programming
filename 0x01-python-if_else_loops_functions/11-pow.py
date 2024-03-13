@@ -3,9 +3,9 @@ def pow(a, b):
     if b == 0:
         return 1
     elif b < 0:
-        float(a) = 1 / a
+        a = 1 / float(a)
         b = abs(b)
-    x = a
+    x = float(a)
     for i in range(b - 1):
         a = a * x
     return a
