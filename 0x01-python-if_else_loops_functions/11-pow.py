@@ -5,7 +5,7 @@ def pow(a, b):
     elif b < 0:
         a = 1 / float(a)
         b = abs(b)
-    x = float(a)
+    x = a
     for i in range(b - 1):
         a = a * x
     return a
