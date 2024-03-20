@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    x = my_list[0]
+    if not my_list:
+        return 0
+    else:
+        x = my_list[0]
     for i in range(1, len(my_list)):
         f = 1
         for j in range(i):
