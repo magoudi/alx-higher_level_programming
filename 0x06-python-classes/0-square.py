@@ -2,6 +2,6 @@
 """rygwthafhaehadh"""
 
 
-class square:
+class Square:
     """Sdgsdfgsdfgsdfg"""
     pass
