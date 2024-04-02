@@ -12,6 +12,8 @@ my_square_2.my_print()
 print("--")
 
 my_square_3 = Square(3, (3, 0))
+my_square_3.position = (4,2)
+print(my_square_3.position)
 my_square_3.my_print()
 
 print("--")
