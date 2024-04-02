@@ -11,6 +11,7 @@ class Square:
 
         Args:
             size (int): The size of the new square.
+            position (int, int): sadfvafdjhvnjasfngjkanfg
         """
         self.size = size
         self.position = position
