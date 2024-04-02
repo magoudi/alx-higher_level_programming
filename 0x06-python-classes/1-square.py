@@ -9,6 +9,6 @@ class Square:
         """egasfgasgsdfgsfgsgf
         
         Args:
-            Size (int): skjdfngjndfgj.
+            size (int): skjdfngjndfgj.
         """
         self.__size = size
