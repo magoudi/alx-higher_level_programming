@@ -2,6 +2,7 @@
 
 """adfgqyfdgvjhdssgjdsjgh"""
 
+
 class Square:
     """Represent a square."""
 
