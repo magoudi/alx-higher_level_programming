@@ -3,4 +3,5 @@
 
 
 class Square:
-    __size = none
+    """asgsgasrg"""
+    __size = None
