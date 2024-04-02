@@ -11,10 +11,10 @@ class Square:
 
         Args:
             size (int): The size of the new square.
-            position (int, int): The position of the new square.
         """
-        self.size = size
-        self.position = position
+        self.__size = size
+        self.__position = position
+
 
     @property
     def size(self):
@@ -31,15 +31,13 @@ class Square:
 
     @property
     def position(self):
-        """Get/set the current position of the square."""
-        return (self.__position)
+        """sfvjbsjhdgbhjdsfbg"""
+        return self.__position
 
     @position.setter
     def position(self, value):
-        if (not isinstance(value, tuple) or
-                len(value) != 2 or
-                not all(isinstance(num, int) for num in value) or
-                not all(num >= 0 for num in value)):
+        """arguhafjkgbkadfbgk"""
+        if not isinstance(value, tuple) or not all(isinstance(x, int) or x < 0 for x in value):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
@@ -48,13 +46,15 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the square with the # character."""
+        """argasgasgargafdgg"""
         if self.__size == 0:
-            print("")
-            return
-
-        [print("") for i in range(0, self.__position[1])]
-        for i in range(0, self.__size):
-            [print(" ", end="") for j in range(0, self.__position[0])]
-            [print("#", end="") for k in range(0, self.__size)]
-            print("")
+            print()
+        else:
+            for i in range(position[1]):
+                print()
+            for i in range(self.__size):
+                for x in range(position[0]):
+                    print(" ", end="")
+                for j in range(self.__size):
+                    print("#", end="")
+                print()
