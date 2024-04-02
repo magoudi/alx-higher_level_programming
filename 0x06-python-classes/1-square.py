@@ -5,6 +5,6 @@
 class Square:
     """asgsgasrg"""
 
-    def __init__(self):
+    def __init__(self, size):
         """egasfgasgsdfgsfgsgf"""
         self.__size = None
