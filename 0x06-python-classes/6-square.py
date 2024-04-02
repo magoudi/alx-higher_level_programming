@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+"""adfgqyfdgvjhdssgjdsjgh"""
+
 class Square:
     """Represent a square."""
 
