@@ -20,4 +20,4 @@ class Square:
 
     def area():
         """"asgsdfgijsanbfkjgndjsgnj"""
-        return size ** 2
+        return size * size
