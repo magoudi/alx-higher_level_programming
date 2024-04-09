@@ -58,4 +58,4 @@ class Rectangle:
             for j in range(self.width):
                 rect.append("#")
             rect.append("\n")
-        return rect
+        return "".join(rect)
