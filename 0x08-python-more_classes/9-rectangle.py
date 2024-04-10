@@ -65,7 +65,7 @@ class Rectangle:
             return rect_2
 
     def square(cls, size=0):
-        sq = Rectangle(size, size)
+        sq = cls(size, size)
         return sq
 
     def __str__(self):
