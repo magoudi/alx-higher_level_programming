@@ -11,6 +11,6 @@ class MyList(list):
     pass
 
     def print_sorted(self):
-        """Methot that sorted a list"""
+        """Method that sortsa list"""
 
         print(sorted(list(self)))
