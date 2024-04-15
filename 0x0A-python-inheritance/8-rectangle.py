@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from "7-base_geometry" import BaseGeometry
+from 7-base_geometry import BaseGeometry
 """sfgbfgbsgdhgghsrtdfgvgbsfgdf"""
 
 
@@ -12,6 +12,6 @@ class Rectangle(BaseGeometry):
             self.integer_validator("width", width)
             self.integer_validator("height", height)
             self.__width = width
-            slf.__height = height
+            self.__height = height
         except Exception:
             pass
