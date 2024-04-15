@@ -5,6 +5,7 @@
 
 class MyList(list):
     """fvbcdfjhdvbfjhdbsfd"""
+    pass
 
     def print_sorted(self):
         """sdfgvnskdjfbgkjfnv"""
