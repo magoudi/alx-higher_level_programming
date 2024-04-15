@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-
-"""sgfvsbrsghdfbvdhfj"""
+"""
+===========================
+Module with class MyList
+===========================
+"""
 
 
 class MyList(list):
-    """fvbcdfjhdvbfjhdbsfd"""
+    """Class with method print_sorted"""
     pass
 
     def print_sorted(self):
-        """sdfgvnskdjfbgkjfnv"""
+        """Methot that sorted a list"""
+
         print(sorted(list(self)))
