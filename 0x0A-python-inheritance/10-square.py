@@ -10,3 +10,8 @@ class Square(Rectangle):
     def __init__(self, size):
         """tfytftfuguygiyhiygi"""
         super().__init__(size, size)
+        self.__size = size
+
+    def area(self):
+        """jgfytfygdhrdfhjgtsfedfhgjh"""
+        return self.__size ** 2
