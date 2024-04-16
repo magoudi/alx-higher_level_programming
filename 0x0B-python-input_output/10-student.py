@@ -12,7 +12,7 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
         """wsgrrgveagwfgdbfsdFB"""
         if (type(attrs) == list and
                 all(type(element) == str for element in attrs)):
