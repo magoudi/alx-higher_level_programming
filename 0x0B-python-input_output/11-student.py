@@ -23,3 +23,4 @@ class Student:
         """hjbjhbjhbjhbhjbhjbhjbjhbjhb"""
         for k, v in json.items():
             setattr(self, k, v)
+    pass
