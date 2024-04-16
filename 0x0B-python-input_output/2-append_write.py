@@ -3,9 +3,8 @@
 """vhgcfcffyfuhjkmlk"""
 
 
-def write_file(filename="", text=""):
-    """hgfytdtrsrstrfhrsfshfgfesg"""
-    count = 0
+def append_write(filename="", text=""):
+    """dsgfbdfhbgvvndfjkvbnhdjfbvsb"""
     with open(filename, "a") as file:
         count = file.write(text)
     return count
