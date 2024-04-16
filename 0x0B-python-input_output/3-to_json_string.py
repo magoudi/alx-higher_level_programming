@@ -6,4 +6,4 @@ import json
 
 def to_json_string(my_obj):
     """fviunfbherbfgchebseghjvbehjrgj"""
-    json_str = json.dumps(myobj)
+    json_str = json.dumps(my_obj)
