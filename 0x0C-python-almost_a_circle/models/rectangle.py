@@ -109,13 +109,18 @@ class Rectangle(Base):
             self.x = listt[3]
         if i > 4:
             self.y = listt[4]
-        if klist["id"] != None:
-            self.id = klist["id"]
-        if klist["x"] != None:
-            self.x = klist["x"]
-        if klist["y"] != None:
-            self.y = klist["y"]
-        if klist["height"] != None:
-            self.height = klist["height"]
-        if klist["width"] != None:
-            self.width = klist["width"]
+        if i == 0:
+            if klist["id"] != None:
+                self.id = klist["id"]
+            if klist["x"] != None:
+                self.x = klist["x"]
+            if klist["y"] != None:
+                self.y = klist["y"]
+            if klist["height"] != None:
+                self.height = klist["height"]
+            if klist["width"] != None:
+                self.width = klist["width"]
+
+    def to_dictionary(self):
+        """srgsdfgsdfzgvdfzgvdszfgvdzfgxv"""
+        return {'x' : self.x, 'y' : self.y, 'id' : self.id, 'height' : self.height, 'width' : self.width}
