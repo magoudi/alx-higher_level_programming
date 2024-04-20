@@ -76,7 +76,46 @@ class Rectangle(Base):
 
     def display(self):
         """dfgbjdgvnjgnvajfjnlgejrnfkdm"""
+        for y in range(self.y):
+            print()
         for i in range(self.height):
+            for x in range(self.x):
+                    print(" ", end="")
             for j in range(self.width):
                 print("#", end="")
             print()
+
+    def __str__(self):
+        """rgdhfgbdgfhbfgbvrsfgvrgfhbvgbvgfv"""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
+
+    def update(self, *args, **kwargs):
+        """Sdfbsdfbvsdfgvdfgvdsfzcgdfcgvdfcgv"""
+        listt = [None, None, None, None, None]
+        klist = {"id" : None, "x" : None, "y" : None, "width" : None, "height" : None}
+        i = 0
+        for arg in args:
+            listt[i] = arg
+            i += 1
+        for key, value in kwargs.items():
+            klist[key] = value
+        if i > 0:
+            self.id = listt[0]
+        if i > 1:
+            self.width = listt[1]
+        if i > 2:
+            self.height = listt[2]
+        if i > 3:
+            self.x = listt[3]
+        if i > 4:
+            self.y = listt[4]
+        if klist["id"] != None:
+            self.id = klist["id"]
+        if klist["x"] != None:
+            self.x = klist["x"]
+        if klist["y"] != None:
+            self.y = klist["y"]
+        if klist["height"] != None:
+            self.height = klist["height"]
+        if klist["width"] != None:
+            self.width = klist["width"]
