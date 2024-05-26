@@ -1,2 +1,2 @@
 --sfjnkxcjnjmfnjnjnbvjf
-SHOW DATABASE;
+SHOW DATABASES;
