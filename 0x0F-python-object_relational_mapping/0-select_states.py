@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-from sys import argv;
+from sys import argv
 import MySQLdb
 
 """ qsdvnlasng bwajkbgjnawskmf"""
 
 db = MySQLdb.connect(
-    host="localhost", 
+    host="localhost",
     port=3306,
     user=argv[1],
     passwd=argv[2],
