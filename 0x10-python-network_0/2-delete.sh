@@ -1,3 +1,3 @@
 #!/bin/bash
 #gvhjugjyfyugy
-curl -s DELETE $1
+curl -s DELETE $1 -L
